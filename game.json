@@ -1,0 +1,258 @@
+{
+	"width": 640,
+	"height": 360,
+	"fps": 30,
+	"main": "./script/main.js",
+	"assets": {
+		"main": {
+			"type": "script",
+			"path": "script/main.js",
+			"global": true
+		},
+		"MainScene": {
+			"type": "script",
+			"path": "script/MainScene.js",
+			"global": true
+		},
+		"Button": {
+			"type": "script",
+			"path": "script/Button.js",
+			"global": true
+		},
+		"img_numbers_n": {
+			"type": "image",
+			"width": 364,
+			"height": 64,
+			"path": "image/img_numbers_n.png"
+		},
+		"img_numbers_n_red": {
+			"type": "image",
+			"width": 364,
+			"height": 32,
+			"path": "image/img_numbers_n_red.png"
+		},
+		"test": {
+			"type": "text",
+			"path": "text/test.json"
+		},
+		"bgm": {
+			"type": "audio",
+			"path": "audio/bgm",
+			"systemId": "music",
+			"duration": 48000
+		},
+		"se_start": {
+			"type": "audio",
+			"path": "audio/se_start",
+			"systemId": "sound",
+			"duration": 1701
+		},
+		"se_timeup": {
+			"type": "audio",
+			"path": "audio/se_timeup",
+			"systemId": "sound",
+			"duration": 1080
+		},
+		"time": {
+			"type": "image",
+			"width": 38,
+			"height": 38,
+			"path": "image/time.png"
+		},
+		"finish": {
+			"type": "image",
+			"width": 360,
+			"height": 150,
+			"path": "image/finish.png"
+		},
+		"start": {
+			"type": "image",
+			"width": 500,
+			"height": 150,
+			"path": "image/start.png"
+		},
+		"title": {
+			"type": "image",
+			"width": 640,
+			"height": 360,
+			"path": "image/title.png"
+		},
+		"score": {
+			"type": "image",
+			"width": 100,
+			"height": 96,
+			"path": "image/score.png"
+		},
+		"glyph28": {
+			"type": "text",
+			"path": "text/glyph28.json"
+		},
+		"glyph32_yellow": {
+			"type": "text",
+			"path": "text/glyph32_yellow.json"
+		},
+		"glyph72": {
+			"type": "text",
+			"path": "text/glyph72.json"
+		},
+		"number_b": {
+			"type": "image",
+			"width": 936,
+			"height": 84,
+			"path": "image/number_b.png"
+		},
+		"number_p": {
+			"type": "image",
+			"width": 936,
+			"height": 84,
+			"path": "image/number_p.png"
+		},
+		"number_w": {
+			"type": "image",
+			"width": 1080,
+			"height": 168,
+			"path": "image/number_w.png"
+		},
+		"config": {
+			"type": "image",
+			"width": 40,
+			"height": 40,
+			"path": "image/config.png"
+		},
+		"Config": {
+			"type": "script",
+			"path": "script/Config.js",
+			"global": true
+		},
+		"volume": {
+			"type": "image",
+			"width": 64,
+			"height": 32,
+			"path": "image/volume.png"
+		},
+		"MainGame": {
+			"type": "script",
+			"path": "script/MainGame.js",
+			"global": true
+		},
+		"number_y": {
+			"type": "image",
+			"width": 1080,
+			"height": 84,
+			"path": "image/number_y.png"
+		},
+		"number_k": {
+			"type": "image",
+			"width": 936,
+			"height": 84,
+			"path": "image/number_k.png"
+		},
+		"ball": {
+			"type": "image",
+			"width": 100,
+			"height": 100,
+			"path": "image/ball.png"
+		},
+		"coin": {
+			"type": "image",
+			"width": 38,
+			"height": 38,
+			"path": "image/coin.png"
+		},
+		"item": {
+			"type": "image",
+			"width": 128,
+			"height": 32,
+			"path": "image/item.png"
+		},
+		"floor": {
+			"type": "image",
+			"width": 250,
+			"height": 15,
+			"path": "image/floor.png"
+		},
+		"effect": {
+			"type": "image",
+			"width": 360,
+			"height": 120,
+			"path": "image/effect.png"
+		},
+		"pentagon": {
+			"type": "image",
+			"width": 100,
+			"height": 95,
+			"path": "image/pentagon.png"
+		},
+		"shape": {
+			"type": "image",
+			"width": 200,
+			"height": 300,
+			"path": "image/shape.png"
+		},
+		"biri": {
+			"type": "audio",
+			"path": "audio/biri",
+			"systemId": "sound",
+			"duration": 2064
+		},
+		"clear1": {
+			"type": "audio",
+			"path": "audio/clear1",
+			"systemId": "sound",
+			"duration": 1554
+		},
+		"se_clear": {
+			"type": "audio",
+			"path": "audio/se_clear",
+			"systemId": "sound",
+			"duration": 732
+		},
+		"miss": {
+			"type": "audio",
+			"path": "audio/miss",
+			"systemId": "sound",
+			"duration": 360
+		},
+		"se_hit": {
+			"type": "audio",
+			"path": "audio/se_hit",
+			"systemId": "sound",
+			"duration": 654
+		},
+		"img_numbers_n_blue": {
+			"type": "image",
+			"width": 364,
+			"height": 32,
+			"path": "image/img_numbers_n_blue.png"
+		}
+	},
+	"environment": {
+		"sandbox-runtime": "2",
+		"niconico": {
+			"supportedModes": [
+				"single",
+				"ranking"
+			],
+			"preferredSessionParameters": {
+				"totalTimeLimit": 103
+			}
+		}
+	},
+	"globalScripts": [
+		"node_modules/@akashic-extension/akashic-timeline/lib/ActionType.js",
+		"node_modules/@akashic-extension/akashic-timeline/lib/Easing.js",
+		"node_modules/@akashic-extension/akashic-timeline/lib/Timeline.js",
+		"node_modules/@akashic-extension/akashic-timeline/lib/Tween.js",
+		"node_modules/@akashic-extension/akashic-timeline/lib/index.js",
+		"node_modules/@akashic-extension/akashic-box2d/lib/BodyType.js",
+		"node_modules/@akashic-extension/akashic-box2d/lib/Box2D.js",
+		"node_modules/@akashic-extension/akashic-box2d/lib/Box2DOptions.js",
+		"node_modules/@akashic-extension/akashic-box2d/lib/index.js",
+		"node_modules/box2dweb/box2d.js"
+	],
+	"moduleMainScripts": {
+		"@akashic-extension/akashic-timeline": "node_modules/@akashic-extension/akashic-timeline/lib/index.js",
+		"@akashic-extension/akashic-box2d": "node_modules/@akashic-extension/akashic-box2d/lib/index.js",
+		"box2dweb": "node_modules/box2dweb/box2d.js"
+	}
+}
