@@ -1,6 +1,6 @@
-# 割ルパズル
+# カラーシェイプ
 
-**割ルパズル**はAcashicEngineとTypeScriptにより作られたニコニコ生放送向けゲームです。
+**カラーシェイプ**はAcashicEngineとTypeScriptにより作られたニコニコ生放送向けゲームです。
 
 ## 利用方法
 
